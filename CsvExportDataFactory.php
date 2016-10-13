@@ -11,19 +11,19 @@ class CsvExportDataFactory implements ExportDataFactoryInterface {
 
     public static function makeExportDataBrowser()
     {
-        $objExportDataCsv = new ExportDataCsv("browser");
+        $objExportDataCsv = new ExportDataCsv();
         return new ExportDataCsvBrowserDecorator($objExportDataCsv);
     }
 
     public static function makeExportDataFile()
     {
-        $objExportDataCsv = new ExportDataCsv("file");
+        $objExportDataCsv = new ExportDataCsv();
         return new ExportDataCsvFileDecorator($objExportDataCsv);
     }
 
     public static function makeExportDataString()
     {
-        $objExportDataCsv = new ExportDataCsv("string");
+        $objExportDataCsv = new ExportDataCsv();
         return new ExportDataCsvStringDecorator($objExportDataCsv);
     }
 }
