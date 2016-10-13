@@ -11,19 +11,19 @@ class TsvExportDataFactory implements ExportDataFactoryInterface
 
     public static function makeExportDataBrowser()
     {
-        $objExportDataTsv = new ExportDataTsv("browser");
+        $objExportDataTsv = new ExportDataTsv();
         return new ExportDataTsvBrowserDecorator($objExportDataTsv);
     }
 
     public static function makeExportDataFile()
     {
-        $objExportDataTsv = new ExportDataTsv("file");
+        $objExportDataTsv = new ExportDataTsv();
         return new ExportDataTsvFileDecorator($objExportDataTsv);
     }
 
     public static function makeExportDataString()
     {
-        $objExportDataTsv = new ExportDataTsv("string");
+        $objExportDataTsv = new ExportDataTsv();
         return new ExportDataTsvStringDecorator($objExportDataTsv);
     }
 }
