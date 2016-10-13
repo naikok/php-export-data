@@ -11,19 +11,19 @@ class ExcelExportDataFactory implements ExportDataFactoryInterface {
 
     public static function makeExportDataBrowser()
     {
-        $objExportDataExcel = new ExportDataExcel("browser");
+        $objExportDataExcel = new ExportDataExcel();
         return new ExportDataExcelBrowserDecorator($objExportDataExcel);
     }
 
     public static function makeExportDataFile()
     {
-        $objExportDataExcel = new ExportDataExcel("file");
+        $objExportDataExcel = new ExportDataExcel();
         return new ExportDataExcelFileDecorator($objExportDataExcel);
     }
 
     public static function makeExportDataString()
     {
-        $objExportDataExcel = new ExportDataExcel("string");
+        $objExportDataExcel = new ExportDataExcel();
         return new ExportDataExcelStringDecorator($objExportDataExcel);
     }
 }
