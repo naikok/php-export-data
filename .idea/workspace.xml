@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87559869-9226-46c4-b78e-071b0191c6e5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManagerTypes/ExportDataCsv.php" afterPath="$PROJECT_DIR$/ManagerTypes/ExportDataCsv.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManagerTypes/ExportDataTsv.php" afterPath="$PROJECT_DIR$/ManagerTypes/ExportDataTsv.php" />
     </list>
     <ignored path="php-export-data.iws" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="ExportDataCsv.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ManagerTypes/ExportDataCsv.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -47,8 +48,8 @@
       <file leaf-file-name="ExportDataExcel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ManagerTypes/ExportDataExcel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -57,8 +58,8 @@
       <file leaf-file-name="ExportDataTsv.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ManagerTypes/ExportDataTsv.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10152284">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.07614213">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -92,6 +93,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ManagerTypes/ExportDataCsv.php" />
         <option value="$PROJECT_DIR$/ManagerTypes/ExportDataTsv.php" />
       </list>
     </option>
@@ -243,26 +245,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ManagerTypes/ExportDataExcel.php">
+    <entry file="file://$PROJECT_DIR$/ManagerTypes/ExportDataCsv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ManagerTypes/ExportDataCsv.php">
+    <entry file="file://$PROJECT_DIR$/ManagerTypes/ExportDataExcel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ManagerTypes/ExportDataTsv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10152284">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.07614213">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
