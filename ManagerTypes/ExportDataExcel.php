@@ -26,71 +26,6 @@ class ExportDataExcel implements ExportDataInterface
         return self::type;
     }
 
-    /*
-    public function initialize()
-    {
-
-        switch ($this->exportTo) {
-            case 'browser':
-                $this->sendHttpHeaders();
-                break;
-            case 'string':
-                $this->stringData = '';
-                break;
-            case 'file':
-                $this->tempFilename = tempnam(sys_get_temp_dir(), 'exportdata');
-                $this->tempFile = fopen($this->tempFilename, "w");
-                break;
-        }
-
-        $this->write($this->generateHeader());
-
-    }
-    */
-
-    /*
-    public function finalize()
-    {
-
-        $this->write($this->generateFooter());
-
-        switch ($this->exportTo) {
-            case 'browser':
-                flush();
-                break;
-            case 'string':
-                // do nothing
-                break;
-            case 'file':
-                // close temp file and move it to correct location
-                fclose($this->tempFile);
-                rename($this->tempFilename, $this->filename);
-                break;
-        }
-    }*/
-    /*
-    public function write($data)
-    {
-        switch ($this->exportTo) {
-            case 'browser':
-                echo $data;
-                break;
-            case 'string':
-                $this->stringData .= $data;
-                break;
-            case 'file':
-                fwrite($this->tempFile, $data);
-                break;
-        }
-    }*/
-
-    /*
-    public function addRow($row)
-    {
-        $this->write($this->generateRow($row));
-    }
-    */
-
     public function generateHeader()
     {
 
@@ -168,7 +103,4 @@ class ExportDataExcel implements ExportDataInterface
 
         return $output;
     }
-
-
-
 }
