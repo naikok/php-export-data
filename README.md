@@ -1,4 +1,4 @@
-http://github.com/elidickinson/php-export-data
+Fork from this repo that has been improved: http://github.com/elidickinson/php-export-data
 
 
 
